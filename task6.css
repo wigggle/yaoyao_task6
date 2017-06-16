@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 1200px;
+}
+/*浮出层的样式*/
+#box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 300px;
+    margin-left: -250px;
+    margin-top: -150px;
+    border: 3px solid gray;
+    background-color: #fff;
+    text-align: center;
+    display: none;
+}
+#box h1{
+    background-color: cadetblue;
+    cursor: pointer;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+}
+#show{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+#click{
+    width: 90px;
+    height:40px;
+    cursor: pointer;
+}
+
+#mask{
+    position: fixed;
+    background-color: #ddd;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    display: none;
+}

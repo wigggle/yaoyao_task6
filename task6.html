@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>yaoyao_task6UI组件浮出层</title>
+    <link rel="stylesheet" type="text/css" href="task6.css">
+</head>
+<body>
+    <div id="container">
+        <div id="mask"></div>
+
+        <div id="box">
+            <h1>这是一个浮出层</h1>
+            <p>我可以被任意拖动</p>
+            <div id="buttons">
+                <button type="button" id="confirm" onclick="hideTips()">确定</button>
+                <button type="button" id="cancel" onclick="hideTips()">取消</button>
+            </div>
+        </div>
+
+        <div id="show">
+            <button id="click" type="button" onclick="showTips()">点击浮出</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="task6.js"></script>
+
+</body>
+</html>
